@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello Word (auto deploy)');
+  res.send('Hello World (auto deploy)');
 });
 
 module.exports = app;

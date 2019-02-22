@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "now-autodeploy",
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "alias": "now-autodeploy"
+}
